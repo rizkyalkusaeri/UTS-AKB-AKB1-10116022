@@ -1,4 +1,4 @@
-package com.rizkyalkus.uts_akb_akb1_10116022;
+package com.rizkyalkus.uts_akb_akb1_10116022.Activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -7,11 +7,13 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+
+import com.rizkyalkus.uts_akb_akb1_10116022.IntroViewPagerAdapter;
+import com.rizkyalkus.uts_akb_akb1_10116022.R;
+import com.rizkyalkus.uts_akb_akb1_10116022.model.Model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,7 +45,7 @@ public class IntroActivity extends AppCompatActivity {
 
         if (restorePrefData())
         {
-            Intent mainActivity = new Intent(getApplicationContext(),HomeActivity.class);
+            Intent mainActivity = new Intent(getApplicationContext(),LoginActivity.class);
             startActivity(mainActivity);
             finish();
         }
@@ -132,7 +134,7 @@ public class IntroActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 //OPEN MAIN ACTIVITY
-                Intent mainActivity = new Intent(getApplicationContext(), HomeActivity.class);
+                Intent mainActivity = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(mainActivity);
 
                 // Kita perlu  save a boolean untuk mengatahui informasi USER bahwa telah melewati intro screen Activity

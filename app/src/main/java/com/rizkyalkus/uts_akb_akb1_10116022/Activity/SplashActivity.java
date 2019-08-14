@@ -1,4 +1,4 @@
-package com.rizkyalkus.uts_akb_akb1_10116022;
+package com.rizkyalkus.uts_akb_akb1_10116022.Activity;
 
 /* NIM : 10116022
    Nama : M Rizky Al Kusaeri
@@ -12,6 +12,8 @@ import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.rizkyalkus.uts_akb_akb1_10116022.R;
 
 public class SplashActivity extends AppCompatActivity {
 

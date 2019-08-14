@@ -3,14 +3,13 @@ package com.rizkyalkus.uts_akb_akb1_10116022;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
-import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import com.rizkyalkus.uts_akb_akb1_10116022.model.Model;
 
 /* NIM : 10116022
    Nama : M Rizky Al Kusaeri

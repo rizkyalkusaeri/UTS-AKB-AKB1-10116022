@@ -1,4 +1,4 @@
-package com.rizkyalkus.uts_akb_akb1_10116022;
+package com.rizkyalkus.uts_akb_akb1_10116022.model;
 
 public class Model {
 

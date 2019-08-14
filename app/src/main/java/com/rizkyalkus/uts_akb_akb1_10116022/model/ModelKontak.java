@@ -1,4 +1,4 @@
-package com.rizkyalkus.uts_akb_akb1_10116022;
+package com.rizkyalkus.uts_akb_akb1_10116022.model;
 
 /* NIM : 10116022
    Nama : M Rizky Al Kusaeri

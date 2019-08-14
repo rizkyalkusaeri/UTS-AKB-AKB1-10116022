@@ -23,6 +23,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.rizkyalkus.uts_akb_akb1_10116022.model.ModelKontak;
+
 import java.util.List;
 
 public class RecylerViewAdapter extends RecyclerView.Adapter<RecylerViewAdapter.MyViewHolder> {

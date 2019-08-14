@@ -1,4 +1,4 @@
-package com.rizkyalkus.uts_akb_akb1_10116022;
+package com.rizkyalkus.uts_akb_akb1_10116022.Fragment;
 
 
 import android.content.ActivityNotFoundException;
@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.rizkyalkus.uts_akb_akb1_10116022.R;
 import com.rizkyalkus.uts_akb_akb1_10116022.presenter.MainPresenterActivity;
 import com.rizkyalkus.uts_akb_akb1_10116022.view.MainView;
 

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:background="@color/colorPrimary"
-    tools:context=".FragmentDaftar">
+    tools:context=".Fragment.FragmentDaftar">
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
